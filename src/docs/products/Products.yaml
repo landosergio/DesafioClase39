@@ -1,0 +1,40 @@
+Product:
+  type: object
+  properties:
+    _id:
+      type: ObjectId
+      description: Id autogenerado por Mongo.
+    title:
+      type: String
+      description: Nombre del producto.
+    description:
+      type: String
+      description: Descripción del producto.
+    price:
+      type: Number
+      description: Precio del producto.
+    thumbnail:
+      type: Array
+      description: Imágenes del producto.
+    code:
+      type: String
+      description: Código del producto.
+    stock:
+      type: Number
+      description: Cantidad del producto en stock.
+    status:
+      type: Boolean
+      description: Es un misterio
+    owner:
+      type: String
+      description: Referencia al dueño del producto.
+  example:
+    _id: ObjectId("664a6aff65727315cb5e3320")
+    title: Televisor Samsung
+    description: El mejor televisor para ver el Mundial 2026
+    price: 999.999
+    thumbnail: []
+    code: SSS-111
+    stock: 75
+    status: true
+    owner: samsungstore@gmail.com
