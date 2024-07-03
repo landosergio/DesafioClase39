@@ -92,7 +92,7 @@ paths:
           description: Error interno del servidor.
 
     delete:
-      summary: Obtiene un producto por su Id.
+      summary: Elimina un producto por su Id.
       tags:
         - Products
       parameters:
